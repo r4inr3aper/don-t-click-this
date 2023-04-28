@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+}
+.sidebar{
+	background-color: rgb(203, 99, 99);
+	width: 10vw;
+	height: 100vh;
+}
+.sidebar nav{
+	padding: 20px;
+}
+.sidebar nav li{
+	list-style: none;
+    font-size: 11px;
+	line-height: 3.3em;
+	padding: 33px 0;
+}
+.main{
+	background-color: aqua;
+	width: 90vw;
+	height: auto;
+}
+.container{
+	display: flex;
+}
+.infocontainer{
+	background-color: azure;
+	height: 45vh;
+	width: 80vw;
+	margin: 44px auto;
+    display: flex;
+	justify-content: space-around;
+}
+.devpic img
+{
+	height: 10vw;
+	width: 10vw;
+    
+}
+.divdevinfo hello{
+	font-size: medium;
+}
+.divdevinfo name{
+	font-size: medium;
+}
+.divdevinfo aboutus{
+	font-size: medium;
+}
+
+
+
+.divbody{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about us,.experience,.contactus,.sevices{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+	border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    flex-basis: 70%;
+}
